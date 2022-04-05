@@ -1,0 +1,71 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* https://land-book.com/websites/33803-expert-it-webflow-html-website-template */
+
+/* MAIN COLOUR: #343a40 */
+/* SECOND COLOUR: #e9ecef */
+/* GREY COLOUR: #343a40 */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* GENERAL */
+
+.container {
+    padding: 20px;
+}
+
+/* NAV */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-header {
+    flex: 1;
+}
+
+.nav-button-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nav-actions {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-action {
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-action a{
+    text-decoration: none;
+}
+
+/* Hero */
+
+.hero-container {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    flex: 1 1 auto;
+}
+
+/* Footer */
+
+.footer-copyright {
+}
