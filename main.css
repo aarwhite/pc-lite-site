@@ -8,8 +8,8 @@ FONT SIZE SYSTEM (px)
 
 /* https://land-book.com/websites/33803-expert-it-webflow-html-website-template */
 
-/* MAIN COLOUR: #343a40 */
-/* SECOND COLOUR: #e9ecef */
+/* MAIN COLOUR: #37b24d */
+/* SECOND COLOUR: #d3f9d8 */
 /* GREY COLOUR: #343a40 */
 
 * {
@@ -21,7 +21,9 @@ FONT SIZE SYSTEM (px)
 /* GENERAL */
 
 .container {
-    padding: 20px;
+    padding-top: 24px;
+    padding-right: 12px;
+    padding-left: 12px;
 }
 
 /* NAV */
@@ -29,10 +31,16 @@ FONT SIZE SYSTEM (px)
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+    border-bottom: 5px solid #d3f9d8;
 }
 
 .nav-header {
     flex: 1;
+    color: #343a40;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .nav-button-wrapper {
@@ -47,25 +55,124 @@ FONT SIZE SYSTEM (px)
     justify-content: space-between;
 }
 
+@media (max-width: 980px){
+    .nav-actions {
+        display: none !important;
+    }
+}
 .nav-action {
     list-style: none;
-    text-decoration: none;
 }
 
-.nav-action a{
+.nav-link{
     text-decoration: none;
+    font-size: 14px;
+    color: #343a40;
+}
+
+.nav-button {
+    background-color: #37b24d; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+@media (max-width: 980px){
+    .nav-button {
+        display: none !important;
+    }
 }
 
 /* Hero */
 
 .hero-container {
     display: grid;
+    row-gap: 15px;
     justify-content: center;
     align-content: center;
-    flex: 1 1 auto;
+    height: 500px;
+    padding-bottom: 24px;
+    border-bottom: 5px solid #d3f9d8;
 }
+
+.hero-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-button {
+    background-color: #37b24d; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
+}
+
+.hero-header {
+    color: #343a40;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hero-subheader {
+    color: #343a40;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Services */
+
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 80px;
+    border-bottom: 5px solid #d3f9d8;
+    padding-bottom: 24px;
+  }
+
+.services-header {
+    color: #343a40;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.services-title {
+    color: #343a40;
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+  
+  .services-text {
+    color: #343a40;
+    font-size: 18px;
+    line-height: 1.7;
+  }
+  
+  .services-icon {
+    stroke: #37b24d;
+    width: 32px;
+    height: 32px;
+    margin-bottom: 24px;
+  }
 
 /* Footer */
 
 .footer-copyright {
+    color: #343a40;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding: 12px;
 }
