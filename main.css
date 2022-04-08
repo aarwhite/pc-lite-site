@@ -98,7 +98,7 @@ FONT SIZE SYSTEM (px)
   .nav-button {
     display: none !important;
   }
-  
+
   .nav-header {
     flex: 2;
   }
@@ -200,6 +200,7 @@ FONT SIZE SYSTEM (px)
   color: #343a40;
   font-size: 24px;
   padding-bottom: 24px;
+  text-align: center;
 }
 
 .services-title {
@@ -228,11 +229,122 @@ FONT SIZE SYSTEM (px)
     padding-bottom: 24px;
   }
 
+  .services-header {
+    text-align: left;
+  }
+
   .services-info {
     padding-bottom: 24px;
   }
   .services-info:last-child {
     padding-bottom: 0;
+  }
+}
+
+/* Menu */
+.menu-header {
+  color: #343a40;
+  font-size: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 80px;
+  border-bottom: 5px solid #d3f9d8;
+  padding-bottom: 24px;
+}
+
+.menu-option {
+  display: grid;
+  border-radius: 12px;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+
+.highlighted {
+  border-radius: 12px;
+  box-shadow: 0 20px 50px 20px #e9ecef;
+}
+
+.menu-option img {
+  width: 100%;
+  border-radius: 12px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.menu-option-box {
+  padding: 32px;
+}
+
+.menu-option-title {
+  margin-bottom: 24px;
+  font-size: 20px;
+  color: #343a40;
+}
+
+.menu-option-details {
+  list-style: none;
+  margin-bottom: 48px;
+}
+
+.menu-option-details li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  color: #343a40;
+}
+
+.menu-option-details li:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-container {
+    display: inline-block;
+    border-bottom: 5px solid #d3f9d8;
+    padding-bottom: 24px;
+  }
+
+  .menu-header {
+    text-align: left;
+  }
+
+  .menu-option {
+    margin-bottom: 24px;
+  }
+}
+
+/* Contact Us */
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 5px solid #d3f9d8;
+  padding-bottom: 24px;
+  justify-content: center;
+  align-content: center;
+}
+
+.contact-header {
+  color: #343a40;
+  font-size: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.contact-text {
+  color: #343a40;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-header {
+    text-align: left;
   }
 }
 
