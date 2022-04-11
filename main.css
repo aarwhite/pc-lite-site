@@ -8,8 +8,8 @@ FONT SIZE SYSTEM (px)
 
 /* https://land-book.com/websites/33803-expert-it-webflow-html-website-template */
 
-/* MAIN COLOUR: #37b24d */
-/* SECOND COLOUR: #d3f9d8 */
+/* MAIN COLOUR: #1864ab */
+/* SECOND COLOUR: #a5d8ff */
 /* GREY COLOUR: #343a40 */
 
 * {
@@ -33,7 +33,7 @@ FONT SIZE SYSTEM (px)
   justify-content: space-between;
   align-items: center;
   padding-bottom: 24px;
-  border-bottom: 5px solid #d3f9d8;
+  border-bottom: 5px solid #a5d8ff;
 }
 
 .nav-header {
@@ -84,7 +84,7 @@ FONT SIZE SYSTEM (px)
 }
 
 .nav-button {
-  background-color: #37b24d; /* Green */
+  background-color: #1864ab; /* Green */
   border: none;
   color: white;
   padding: 15px 24px;
@@ -163,7 +163,7 @@ FONT SIZE SYSTEM (px)
   align-content: center;
   height: 500px;
   padding-bottom: 24px;
-  border-bottom: 5px solid #d3f9d8;
+  border-bottom: 5px solid #a5d8ff;
 }
 
 .hero-button-wrapper {
@@ -172,7 +172,7 @@ FONT SIZE SYSTEM (px)
 }
 
 .hero-button {
-  background-color: #37b24d; /* Green */
+  background-color: #1864ab; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -213,7 +213,7 @@ FONT SIZE SYSTEM (px)
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
-  border-bottom: 5px solid #d3f9d8;
+  border-bottom: 5px solid #a5d8ff;
   padding-bottom: 24px;
 }
 
@@ -237,7 +237,7 @@ FONT SIZE SYSTEM (px)
 }
 
 .services-icon {
-  stroke: #37b24d;
+  stroke: #1864ab;
   width: 32px;
   height: 32px;
   margin-bottom: 24px;
@@ -246,7 +246,7 @@ FONT SIZE SYSTEM (px)
 @media only screen and (max-width: 768px) {
   .services-container {
     display: inline-block;
-    border-bottom: 5px solid #d3f9d8;
+    border-bottom: 5px solid #a5d8ff;
     padding-bottom: 24px;
   }
 
@@ -274,7 +274,7 @@ FONT SIZE SYSTEM (px)
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   column-gap: 80px;
-  border-bottom: 5px solid #d3f9d8;
+  border-bottom: 5px solid #a5d8ff;
   padding-bottom: 24px;
 }
 
@@ -326,7 +326,7 @@ FONT SIZE SYSTEM (px)
 @media only screen and (max-width: 768px) {
   .menu-container {
     display: inline-block;
-    border-bottom: 5px solid #d3f9d8;
+    border-bottom: 5px solid #a5d8ff;
     padding-bottom: 24px;
   }
 
@@ -344,7 +344,7 @@ FONT SIZE SYSTEM (px)
 .contact-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  border-bottom: 5px solid #d3f9d8;
+  border-bottom: 5px solid #a5d8ff;
   padding-bottom: 24px;
   justify-content: center;
   align-content: center;
