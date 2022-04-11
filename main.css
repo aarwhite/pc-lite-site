@@ -167,11 +167,19 @@ FONT SIZE SYSTEM (px)
 /* Hero */
 
 .hero-container {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("content/generic-food.jpg");
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   display: grid;
   row-gap: 15px;
   justify-content: center;
   align-content: center;
-  height: 500px;
+  width: 100vw;
+  height: 100vh;
   padding-bottom: 24px;
   border-bottom: 5px solid #a5d8ff;
 }
@@ -256,12 +264,9 @@ FONT SIZE SYSTEM (px)
 @media only screen and (max-width: 768px) {
   .services-container {
     display: inline-block;
+    text-align: center;
     border-bottom: 5px solid #a5d8ff;
     padding-bottom: 24px;
-  }
-
-  .services-header {
-    text-align: left;
   }
 
   .services-info {
@@ -276,13 +281,20 @@ FONT SIZE SYSTEM (px)
 .menu-header {
   color: #343a40;
   font-size: 24px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.menu-subheader{
+  color: #343a40;
+  font-size: 18px;
   padding-bottom: 24px;
   text-align: center;
 }
 
 .menu-container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   column-gap: 80px;
   border-bottom: 5px solid #a5d8ff;
   padding-bottom: 24px;
@@ -291,7 +303,7 @@ FONT SIZE SYSTEM (px)
 .menu-option {
   display: grid;
   border-radius: 12px;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.25);
 }
 
 .highlighted {
@@ -338,10 +350,6 @@ FONT SIZE SYSTEM (px)
     display: inline-block;
     border-bottom: 5px solid #a5d8ff;
     padding-bottom: 24px;
-  }
-
-  .menu-header {
-    text-align: left;
   }
 
   .menu-option {
