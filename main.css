@@ -41,7 +41,6 @@ FONT SIZE SYSTEM (px)
   justify-content: space-between;
   align-items: center;
   padding-bottom: 24px;
-  border-bottom: 5px solid #a5d8ff;
   background: white;
   padding: 20px;
 }
@@ -301,7 +300,6 @@ FONT SIZE SYSTEM (px)
 }
 
 .menu-option {
-  display: grid;
   border-radius: 12px;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.25);
 }
@@ -330,13 +328,26 @@ FONT SIZE SYSTEM (px)
 
 .menu-option-details {
   list-style: none;
+  margin-bottom: 32px;
+}
+
+.menu-option-details:last-child {
   margin-bottom: 48px;
 }
 
 .menu-option-details li {
-  display: flex;
-  align-items: center;
-  gap: 12px;
+  margin-bottom: 16px;
+  color: #343a40;
+}
+
+.menu-option-details-text {
+  font-style: italic;
+  margin-bottom: 16px;
+  color: #343a40;
+}
+.menu-option-details-price {
+  font-style: italic;
+  font-weight: bold;
   margin-bottom: 16px;
   color: #343a40;
 }
