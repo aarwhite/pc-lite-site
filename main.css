@@ -387,7 +387,7 @@ FONT SIZE SYSTEM (px)
 
 .contact-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   border-bottom: 5px solid #a5d8ff;
   padding-bottom: 24px;
   justify-content: center;
@@ -397,20 +397,16 @@ FONT SIZE SYSTEM (px)
 .contact-header {
   color: #343a40;
   font-size: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 16px;
   text-align: center;
 }
 
 .contact-text {
+  text-align: center;
   color: #343a40;
   font-size: 18px;
   line-height: 1.7;
-}
-
-@media only screen and (max-width: 768px) {
-  .contact-header {
-    text-align: left;
-  }
+  margin-bottom: 10px;
 }
 
 /* Footer */
